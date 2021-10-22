@@ -1,11 +1,14 @@
 A package of helper functions in Python, currently for bioinformatics work.
 
 ### Installation
-For now, download the repo from GitHub and add the location to your PYTHONPATH environment variable. For example:
+Download the repo from GitHub and add the location to your PYTHONPATH environment variable. For example:
 ```python
 repo_path='$HOME/dlaub/.program/dlaub_helpers'
 export PYTHONPATH=${repo_path}${PATH:+:${PATH}}
 ```
+Then make sure you have the requirements installed. See `requirements.txt`.
+
+As this package grows I will improve the installation process and documentation.
 
 ### Functions
 `helpers.rnaseq.pl.volcano()`
